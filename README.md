@@ -1,6 +1,8 @@
 # Notes
 
 * no need to create an API user, use the credentials I sent in the email
+* after you use `setup_p2.sh` script to create an instance, go to AWS Console, select it, click Action, click Add/Edit Tags, prepend your nickname to Name of instance so that you can easily find it on the list of instances when others add their own
+* reboot after first SSHing into instance, so nvidia is propertly set up
 
 
 # Don’t break your dev python env by not installing Anaconda as root Python
