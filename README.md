@@ -34,3 +34,17 @@ If you already used awscli in the past, you have configuration and credentials a
 * edit `~/.aws/config` and change `[default]` to `[profile original]` (or similar)
 * do the same for `~/.aws/credentials`
 * now whenever you need your original config/credentials, run aws with `--profile original`
+
+
+# Running locally
+
+```bash
+$ conda install bcolz
+$ conda install theano
+$ pip install keras==1.2.2
+$ pip install np_utils
+```
+
+```bash
+$ jupyter notebook
+```
