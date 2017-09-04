@@ -1,7 +1,8 @@
 ## Tips:
 * If accuracy > validation accuracy -> overfitting
 * If accuracy < validation accuracy (or both low) -> underfitting
-* Do not decrease neural network size (less layers, parameters, etc.) if problems with overfitting. Rather use as big of a neural network as your computational budget allows, and use other regularization techniques to control overfitting, such as dropout, input noise, batch normalization, etc.
+* Do not decrease neural network size (less layers, parameters, etc.) if problems with overfitting. Rather use as big of a neural network as your computational budget allows, and use other regularization techniques to control overfitting, such as dropout, input noise, etc.
+* For standard photos, you normally do not retrain convolutional layers. However, if your problem set contains line art, medical photos and other
 
 
 ## FAQ:
@@ -15,9 +16,17 @@
 - **Why twice bigger batch size for validation?** No backprop, so less memory consumption, so can be bigger.
 
 
-## TODO:
-* when running lesson1 locally, try increasing the batch_size=64 and browse forums for batch_size
-* run lesson1 on AWS
+## TODO
+
+- n/a
+
+
+## PBs
+
+Personal Bests, only those with `val_acc` > `acc` count:
+
+* catsdogs, lesson 1, stock Vgg16, 2 epochs: 0.9880
+
 
 ## Common iPython Notebooks keyboard shortcuts:
 
