@@ -28,7 +28,9 @@
 
 ## TODO
 
-- run Lesson 2 on Horus
+- See imagenet_batchnorm.ipynb for info on how the weights for Vgg16BN can be generated from the standard Vgg16 weights.
+- What is "dot product"?
+- Run wordvectors.ipynb on Horus
 
 
 ## PBs
@@ -44,3 +46,5 @@ Personal Bests, only those with `val_acc` > `acc` count:
 - **Ctrl-m b** -- insert cell below
 - **Ctrl-m m** -- convert to Markdown cell
 - **Ctrl-m dd** -- remove cell
+- **Shift-Tab** -- function signature
+- **Shift-Tab Tab** -- function docs
