@@ -17,6 +17,7 @@
 
 9. vim cat_or_dog.py
 
+```python
 from vgg16bn import Vgg16BN
 vgg = Vgg16BN()
 
@@ -30,3 +31,4 @@ pia = next(vgg.get_batches('test'))[0]
 prediction = vgg.predict(pia)
 
 print('~~~ Pia is a {}!'.format(prediction[-1][0].replace('s', '')))
+```
